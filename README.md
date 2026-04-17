@@ -144,7 +144,7 @@ terraform destroy
 
 | Component | Version |
 |-----------|---------|
-| Nomad | 1.8.1 |
-| Consul | 1.19.0 |
+| Nomad | 1.11.3 |
+| Consul | 1.22.6 |
 | Terraform (Linode provider) | 3.11.0 |
-| CNI Plugins | 1.5.1 |
+| CNI Plugins | 1.9.1 |

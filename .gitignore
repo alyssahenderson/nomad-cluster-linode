@@ -267,7 +267,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Ansible
-config/
+config/venv
 
 # SSH
 ssh/
