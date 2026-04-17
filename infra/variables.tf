@@ -36,3 +36,8 @@ variable "client_count"{
     type = number
     default = 3
 }
+
+variable "ansible_config_dir" {
+    type = string
+    default = "config"
+}
