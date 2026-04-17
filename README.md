@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=D8KgwFFNFWA
 Justin's repo:
 https://github.com/jmitchel3/nomad-cluster-terraform-ansible-linode
 
-I've just bumped the nomad/consul/linode provider to the latest versions available in 2026.
+I've just bumped the nomad/consul/linode provider to the latest versions available in early 2026.
 
 ## What You Get
 
@@ -72,6 +72,9 @@ This creates all Linode instances, configures VPC networking, and generates an A
 
 ```bash
 cd ../config
+python3 -m venv venv
+source venv/bin/activate
+pip install ansible
 ansible-playbook -i inventory.ini main.yaml
 ```
 

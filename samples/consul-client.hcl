@@ -1,4 +1,4 @@
-node_name = "nomad-client-3"
+node_name = "nomad-client-2"
 datacenter = "nl-ams"
 data_dir = "/opt/consul"
 log_file = "/var/log/consul/consul.log"
@@ -10,8 +10,8 @@ ui_config {
     enabled = false
 }
 
-bind_addr="10.0.0.15"
-advertise_addr="10.0.0.15"
+bind_addr="10.0.0.14"
+advertise_addr="10.0.0.14"
 client_addr = "0.0.0.0"
  
 retry_join = [
